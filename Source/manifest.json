@@ -1,12 +1,11 @@
 {
 	"manifest_version": 2,
-	"name": "SJW to Skeleton",
-	"version": "1.6",
-	"description": "Replaces the text 'SJW' with 'skeleton'.",
+	"name": "Cyber to Cyborg",
+	"version": "0.1",
+	"description": "Replaces the text 'cyber' with 'cyborg'.",
 	"icons": { 
-		"16": "icons/icon16.png",
-		"48": "icons/icon48.png",
-		"128": "icons/icon128.png" 
+		"64": "icons/icons8-Cyborg-64.png",
+		"96": "icons/icons8-Cyborg-96.png"
 	},
 	"content_scripts": 
 	[

@@ -1,4 +1,4 @@
-walk(document.body);
+﻿walk(document.body);
 
 if (window.MutationObserver) {
 	var observer = new MutationObserver(function (mutations) {
@@ -55,11 +55,10 @@ function handleText(textNode)
 	var oldValue = textNode.nodeValue;
 	var v = oldValue;
 
-	v = v.replace(/\bsjw(s?)\b/ig, "skeleton$1");
-	v = v.replace(/\bsocjus\b/ig, "skeletonism");
-	v = v.replace(/\b(a)n (skeletons?)\b/ig, "$1 $2");
-	v = v.replace(/\b(s)ocial justice (warriors?)/ig, "$1keleton $2");
-	
+    v = v.replace(/\b([cC])yber(\w)/ig, "$1yborg $2");
+    v = v.replace(/\b([cC])yber/ig, "$1yborg");
+    v = v.replace(/\b([cC])y·ber/ig, "$1y·borg");
+
 	if (v !== oldValue) {
 		textNode.nodeValue = v;
 	}
